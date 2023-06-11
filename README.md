@@ -21,3 +21,5 @@ mvn --version
 	sudo apt-get install jenkins
 	
 	service jenkins status
+	sudo apt install tomcat9 -y
+	service tomcat9 status
