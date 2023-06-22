@@ -1,0 +1,33 @@
+yum install fontconfig java-11-openjdk
+ tomcat 7 download
+ 
+ 
+ https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.106/bin/apache-tomcat-7.0.106.tar.gz
+ 
+ cd /opt
+ 
+ yum install wget
+ 
+ wget https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.106/bin/apache-tomcat-7.0.106.tar.gz
+ 
+ ll
+ 
+ tar -xvf apache-tomcat-7.0.106.tar.gz
+ 
+ mv apache-tomcat-7.0.106.tar.gz tomcat
+ 
+ 
+ cd apache-tomcat-7.0.106
+ cd /bin
+ 
+ sh startup.sh
+ 
+ cd /conf
+ 
+ user.xml
+ cd /bin
+ stop ./shutdown.sh
+ then startup
+ ./startu.sh
+ enable port 8080
+ 
