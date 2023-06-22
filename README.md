@@ -52,4 +52,5 @@ mvn --version
    24  mvn --version
    25  mvn -version
    26  yum install maven
+   yum install tomcat -y
 
