@@ -53,4 +53,7 @@ mvn --version
    25  mvn -version
    26  yum install maven
    yum install tomcat -y
+   systemctl  status tomcat
+   systemctl  start tomcat
+   systemctl  status tomcat
 
