@@ -26,6 +26,8 @@ mvn --version
 
 
    sudo yum install java-1.8.0-openjdk-devel
+
+    sudo yum install java-11-openjdk-devel
  1  java -version
     2  mvn --version
     3   sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
